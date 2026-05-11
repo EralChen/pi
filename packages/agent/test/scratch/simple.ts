@@ -11,7 +11,7 @@ import {
 	type PromptTemplate,
 	Session,
 	type Skill,
-} from "../../src/index.js";
+} from "../../src/harness.js";
 
 type Source = { type: "project" | "user" | "path"; dir: string };
 type SourcedSkill = Skill & { source: Source };

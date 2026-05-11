@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Breaking Changes
+
+- Fixed browser builds by keeping the root `@earendil-works/pi-agent-core` entry browser-safe and moving harness exports to `@earendil-works/pi-agent-core/harness` ([#4387](https://github.com/earendil-works/pi/issues/4387))
+
 ## [0.74.0] - 2026-05-07
 
 ## [0.73.1] - 2026-05-07
